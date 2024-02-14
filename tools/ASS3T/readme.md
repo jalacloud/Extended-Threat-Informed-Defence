@@ -1,1 +1,7 @@
+![ASS3T](https://github.com/jalacloud/Splinter/assets/46580139/bae48476-4dcb-4a6f-a3e5-cfd17fe733c7)
 
+ASS3T is an interactive and responsive set of dashboards created using Microsoft’s PowerBI platform. The tool uses the latest threat techniques and mitigations from MITRE ATT&CK v14.0.
+
+Using ASS3T, you can quickly and easily identify specific attack technique information based on common adversarial threat objectives and determine effective mitigating controls that remediate the associated attack techniques.
+
+This tool is best used in conjunction with threat modelling exercises to provide accurate threat and mitigation information that can be tailored to your organisation’s security posture.
