@@ -1,0 +1,6 @@
+ASS3T is an interactive and responsive set of dashboards created using Microsoft’s PowerBI platform. The tool uses the latest threat and mitigation data from MITRE ATT&CK v14.0.
+
+Using ASS3T, you can quickly and easily find specific attack technique information based on well-known threat objectives and the associated mitigating controls that effectively remediate the techniques.
+
+This tool is best used in conjunction with threat modelling exercises to provide accurate threat and mitigation information that can be tailored to your organisation’s technical estate.
+
