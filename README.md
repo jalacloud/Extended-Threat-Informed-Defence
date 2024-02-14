@@ -1,2 +1,8 @@
 # Splinter
-A repo for the development of an AI-powered ecosystem that can interact with LLM's to perform for various customizable functions.
+
+A repo dedicated to the ongoing development, application and extension of threat-informed defense using open source threat intelligence provided by MITRE (https://mitre-engenuity.org/).
+
+More to come...
+
+
+
