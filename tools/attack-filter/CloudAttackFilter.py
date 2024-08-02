@@ -1,3 +1,7 @@
+# Created by Jason Layton (August 1st 2024)
+# This script requires cloud attack mapping artifacts in JSON format perform the functions
+# See the respective cloud vendor folders located in this directory to download the required input file(s)
+
 import json
 import argparse
 
