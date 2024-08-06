@@ -33,23 +33,23 @@ Scoring is the same as originally defined by MITRE CTID. You can find more infor
 
 #### Filtering Azure cloud controls for MITRE ATT&CK technique T1606.008 (SAML Tokens) //
 
-attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1606.002
+```attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1606.002
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
 1    azure_ad_identity_protection                                respond                  significant    T1606.002           SAML Tokens
 2    azure_ad_identity_protection                                detect                   partial        T1606.002           SAML Tokens
 3    azure_ad_identity_secure_score                              detect                   partial        T1606.002           SAML Tokens
-
+```
 #### Filtering Azure cloud controls for MITRE ATT&CK technique T1550.002 (Pass the Hash) //
 
-attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1550.002
+```attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1550.002
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
 1    microsoft_defender_for_identity                             detect                   partial        T1550.002           Pass the Hash
 2    azure_ad_identity_secure_score                              protect                  partial        T1550.002           Pass the Hash
 3    azure_sentinel                                              detect                   minimal        T1550.002           Pass the Hash
-
+```
 #### Filtering MITRE ATT&CK techniques by Azure controls (Microsoft Sentinel) //
 
-attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -cg azure_sentinel
+```attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -cg azure_sentinel
 -cg azure_sentinel
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
 1    azure_sentinel                                              detect                   partial        T1078               Valid Accounts
@@ -62,11 +62,11 @@ Rank Capability Group                                            Score Category 
 8    azure_sentinel                                              detect                   partial        T1110.003           Password Spraying
 9    azure_sentinel                                              detect                   partial        T1110.004           Credential Stuffing
 10   azure_sentinel                                              detect                   partial        T1071.004           DNS
-
+```
 
 #### List all capability groups for Amazon AWS //
 
-attack-filter>python CloudAttackFilter.py -i "amzn-aws\aws-09.21.2021_attack-9.0-enterprise_json.json" --list-groups
+```attack-filter>python CloudAttackFilter.py -i "amzn-aws\aws-09.21.2021_attack-9.0-enterprise_json.json" --list-groups
 Available Capability Groups:
 1. amazon_cognito
 2. amazon_detective
@@ -96,6 +96,6 @@ Available Capability Groups:
 26. aws_shield
 27. aws_single_sign-on
 28. aws_web_application_firewall
-
+```
 To see all supported ATT&CK techniques for each cloud provider, call the vendor mapping file (.JSON) and use the --list-attacks argument 
 
