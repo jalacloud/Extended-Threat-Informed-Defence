@@ -4,6 +4,7 @@
 - Using your favourite command shell of choice, navigate to the attack-filter folder where the script(s) are stored
 - Call the "CloudAttackFilter.py" script and run the following commands to generate list of cloud control mechanisms for specific MITRE ATT&CK techniques
 - The results are ranked by their "Score Value" in terms of the coverage/effectiveness the control is against the defined ATT&CK technique
+- Use the -n argument to specify the number of results to generate e.g. "-n 10" for the top 10 techniques or controls
 - You can also generate a scored list of mitigated ATT&CK techniques based on a defined cloud controls e.g. "azure_firewall" or "aws_security_hub"...etc.
 - The script works for ALL cloud service providers (Azure, AWS, and GCP) - The mapping file is located in each vendors folder
 
@@ -16,7 +17,7 @@ Scoring is the same as originally defined by MITRE CTID. You can find more infor
 - **Significant**: The control provides significant mitigation of the ATT&CK (sub-)technique.
 
 ### Supported Commands
-
+```
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
                         Input JSON file
@@ -28,6 +29,7 @@ Scoring is the same as originally defined by MITRE CTID. You can find more infor
                         Number of top techniques to retrieve
   --list-groups         List all available capability groups
   --list-attacks        List all available attack techniques
+```
 
 ### EXAMPLES
 
