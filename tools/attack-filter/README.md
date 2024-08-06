@@ -1,3 +1,5 @@
+![blue-jay-attack-filter](https://github.com/user-attachments/assets/c2009d92-cee3-447e-b3b4-6ff0acffc825)
+
 ## Cloud Attack Filter - How To Use
 
 - Download or clone this repo
@@ -10,7 +12,7 @@
 
 ### Scoring System
 
-Scoring is the same as originally defined by MITRE CTID. You can find more information about this here: https://center-for-threat-informed-defense.github.io/mappings-explorer/about/scoring/
+Scoring is the same as originally defined by MITRE CTID. You can find more information about this [here](https://center-for-threat-informed-defense.github.io/mappings-explorer/about/scoring/).
 
 - **Minimal**: The control provides minimum mitigation of the ATT&CK (sub-)technique.
 - **Partial**: The control provides partial mitigation of the ATT&CK (sub-)technique.
