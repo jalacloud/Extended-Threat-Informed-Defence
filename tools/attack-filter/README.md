@@ -1,4 +1,4 @@
-### How To Use
+## How To Use
 
 - Download or clone this repo
 - Using your favourite command shell of choice, navigate to the attack-filter folder where the script(s) are stored
@@ -11,9 +11,9 @@
 
 Scoring is the same as originally defined by MITRE CTID. You can find more information about this here: https://center-for-threat-informed-defense.github.io/mappings-explorer/about/scoring/
 
-Minimal: The control provides minimum mitigation of the ATT&CK (sub-)technique.
-Partial: The control provides partial mitigation of the ATT&CK (sub-)technique.
-Significant: The control provides significant mitigation of the ATT&CK (sub-)technique.
+- **Minimal**: The control provides minimum mitigation of the ATT&CK (sub-)technique.
+- **Partial**: The control provides partial mitigation of the ATT&CK (sub-)technique.
+- **Significant**: The control provides significant mitigation of the ATT&CK (sub-)technique.
 
 ### Supported Commands
 
