@@ -3,11 +3,13 @@
 ## Cloud Attack Filter - How To Use
 
 - Download or clone this repo
-- Using your favourite command shell of choice, navigate to the attack-filter folder where the script(s) are stored
-- Call the "CloudAttackFilter.py" script and run the following commands to generate list of cloud control mechanisms for specific MITRE ATT&CK techniques
-- The results are ranked by their "Score Value" in terms of the coverage/effectiveness the control is against the defined ATT&CK technique
+- Using your favourite command shell of choice, navigate to the attack-filter folder where the script(s) and sub-folders are stored
+- Each CSP sub-folder contains the MITRE ATT&CK mapping file that is used by the CloudAttackFilter script
+- Call the "CloudAttackFilter.py" script and use the "-i" argument to specify the cloud mapping input file to use for generating the output
+- Run the following commands (shown below) to generate list of cloud control mechanisms for specific MITRE ATT&CK techniques
+- The results are ranked by their "Score Value" in terms of how effective the control is against the each ATT&CK technique
 - Use the -n argument to specify the number of results to generate e.g. "-n 10" for the top 10 techniques or controls
-- You can also generate a scored list of mitigated ATT&CK techniques based on a defined cloud controls e.g. "azure_firewall" or "aws_security_hub"...etc.
+- You can also generate a scored list of mitigated ATT&CK techniques based on specific cloud controls e.g. "azure_firewall" or "aws_security_hub"...etc.
 - The script works for ALL cloud service providers (Azure, AWS, and GCP) - The mapping file is located in each vendors folder
 
 ### Scoring System
@@ -35,7 +37,7 @@ Scoring is the same as originally defined by MITRE CTID. You can find more infor
 
 ### EXAMPLES
 
-#### Filtering Azure cloud controls for MITRE ATT&CK technique T1606.008 (SAML Tokens) //
+#### Identify Azure cloud controls for MITRE ATT&CK technique T1606.008 (SAML Token Abuse) //
 ```
 attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1606.002
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
@@ -43,7 +45,7 @@ Rank Capability Group                                            Score Category 
 2    azure_ad_identity_protection                                detect                   partial        T1606.002           SAML Tokens
 3    azure_ad_identity_secure_score                              detect                   partial        T1606.002           SAML Tokens
 ```
-#### Filtering Azure cloud controls for MITRE ATT&CK technique T1550.002 (Pass the Hash) //
+#### Identify Azure cloud controls for MITRE ATT&CK technique T1550.002 (Pass the Hash) //
 ```
 attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -t T1550.002
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
@@ -51,7 +53,7 @@ Rank Capability Group                                            Score Category 
 2    azure_ad_identity_secure_score                              protect                  partial        T1550.002           Pass the Hash
 3    azure_sentinel                                              detect                   minimal        T1550.002           Pass the Hash
 ```
-#### Filtering MITRE ATT&CK techniques by Azure controls (Microsoft Sentinel) //
+#### Identify MITRE ATT&CK techniques by Azure controls (Microsoft Sentinel) //
 ```
 attack-filter>python CloudAttackFilter.py -i "msft-azure\azure-06.29.2021_attack-8.2-enterprise_json.json" -cg azure_sentinel
 -cg azure_sentinel
@@ -68,7 +70,7 @@ Rank Capability Group                                            Score Category 
 10   azure_sentinel                                              detect                   partial        T1071.004           DNS
 ```
 
-#### Filtering MITRE ATT&CK techniques by AWS controls (AWS WAF)
+#### Identify MITRE ATT&CK techniques by AWS controls (AWS WAF)
 ```
 attack-filter>python CloudAttackFilter.py -i "amzn-aws\aws-09.21.2021_attack-9.0-enterprise_json.json" -cg aws_web_application_firewall
 Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
