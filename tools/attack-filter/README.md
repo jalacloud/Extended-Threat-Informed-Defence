@@ -1,4 +1,4 @@
-## How To Use
+## Cloud Attack Filter - How To Use
 
 - Download or clone this repo
 - Using your favourite command shell of choice, navigate to the attack-filter folder where the script(s) are stored
@@ -62,6 +62,22 @@ Rank Capability Group                                            Score Category 
 8    azure_sentinel                                              detect                   partial        T1110.003           Password Spraying
 9    azure_sentinel                                              detect                   partial        T1110.004           Credential Stuffing
 10   azure_sentinel                                              detect                   partial        T1071.004           DNS
+```
+
+#### Filtering MITRE ATT&CK techniques by AWS controls (AWS WAF)
+
+```attack-filter>python CloudAttackFilter.py -i "amzn-aws\aws-09.21.2021_attack-9.0-enterprise_json.json" -cg aws_web_application_firewall
+Rank Capability Group                                            Score Category           Score Value    Attack Object ID    Attack Object Name
+1    aws_web_application_firewall                                protect                  significant    T1190               Exploit Public-Facing Application
+2    aws_web_application_firewall                                protect                  significant    T1189               Drive-by Compromise
+3    aws_web_application_firewall                                protect                  significant    T1203               Exploitation for Client Execution
+4    aws_web_application_firewall                                protect                  significant    T1059.001           PowerShell
+5    aws_web_application_firewall                                protect                  significant    T1059.004           Unix Shell
+6    aws_web_application_firewall                                protect                  significant    T1059.007           JavaScript
+7    aws_web_application_firewall                                protect                  partial        T1059               Command and Scripting Interpreter
+8    aws_web_application_firewall                                protect                  partial        T1090               Proxy
+9    aws_web_application_firewall                                protect                  partial        T1090.002           External Proxy
+10   aws_web_application_firewall                                protect                  partial        T1090.003           Multi-hop Proxy
 ```
 
 #### List all capability groups for Amazon AWS //
