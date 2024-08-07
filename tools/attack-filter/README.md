@@ -119,5 +119,59 @@ Available Capability Groups:
 27. aws_single_sign-on
 28. aws_web_application_firewall
 ```
-To see all supported ATT&CK techniques for each cloud provider, call the vendor mapping file (.JSON) and use the --list-attacks argument 
+```
+attack-filter>python CloudAttackFilter.py -i "goog-gcp\gcp-06.28.2022_attack-10.0-enterprise_json.json" --list-groups
+Available Capability Groups:
+1. access_transparency
+2. actifio_go
+3. advancedprotectionprogram
+4. anthosconfigmanagement
+5. artifact_registry
+6. assured_workloads
+7. beyondcorp_enterprise
+8. binary_authorization
+9. certificate_authority_service
+10. chronicle
+11. cloud_armor
+12. cloud_asset_inventory
+13. cloud_cdn
+14. cloud_data_loss_prevention
+15. cloud_hardware_security_module_(hsm)
+16. cloud_identity
+17. cloud_ids
+18. cloud_key_management
+19. cloud_logging
+20. cloud_nat
+21. cloud_storage
+22. cloudvpn
+23. confidential_vm_and_compute_engine
+24. config_connector
+25. container_registry
+26. data_catalog
+27. deployment_manager
+28. endpoint_management
+29. firewalls
+30. google_kubernetes_engine
+31. hybrid_connectivity
+32. identity_and_access_management
+33. identity_aware_proxy
+34. identityplatform
+35. packet_mirroring
+36. policy_intelligence
+37. recaptcha_enterprise
+38. resourcemanager
+39. secret_manager
+40. security_command_center
+41. shielded_vm
+42. siemplify
+43. terraform_on_google_cloud
+44. titan_security_key
+45. virtual_private_cloud
+46. virus_total
+47. vmmanager
+48. vpc_service_controls
+49. web_risk
+```
+
+To see all supported ATT&CK techniques for each cloud provider, call the vendor mapping file (.JSON) and use the **--list-attacks** argument 
 
