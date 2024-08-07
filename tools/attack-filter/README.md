@@ -119,6 +119,7 @@ Available Capability Groups:
 27. aws_single_sign-on
 28. aws_web_application_firewall
 ```
+#### List all capability groups for Google Cloud Platform //
 ```
 attack-filter>python CloudAttackFilter.py -i "goog-gcp\gcp-06.28.2022_attack-10.0-enterprise_json.json" --list-groups
 Available Capability Groups:
