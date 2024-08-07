@@ -175,3 +175,9 @@ Available Capability Groups:
 
 To see all supported ATT&CK techniques for each cloud provider, call the vendor mapping file (.JSON) and use the **--list-attacks** argument 
 
+### Credits
+- This tool wouldn't be possible without MITRE Engenuity's Center for Threat-Tnformed Defense mappings explorer project. This tool uses the raw JSON mapping data provided by MITRE CTID.
+- More info here: https://center-for-threat-informed-defense.github.io/mappings-explorer/
+- ChatGPT 4o was used in the creation of the scripts to help add additional functionality beyond simple data ingestion/sorting.
+  
+
