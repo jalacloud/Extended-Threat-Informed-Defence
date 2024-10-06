@@ -1,6 +1,6 @@
 ![ASS3T-v2-5 (v2)](https://github.com/user-attachments/assets/17f18e4e-fde9-4ea3-abca-13064a941434)
 
-## Use threat intelligence *intelligently*
+# Use threat intelligence *intelligently*
 
 ### Observe
   * Use internal and external security logging and monitoring and alerts to identify cyber threats in real-time and near-real-time (NRT).
@@ -15,6 +15,12 @@
 
 ### Identify
 
+  * Enable cloud native logging/monitoring functions in AWS, Azure, and GCP.
+    - [ ] **AWS:** Enable AWS [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) to receive logs for IAM-related activity
+    - [ ] **AWS:** Enable CloudWatch to receive logs for [AD sync and configurable AD sync errors](https://docs.aws.amazon.com/singlesignon/latest/userguide/logging-ad-sync-errors.html)
+    - [ ] **AWS:** Enable AWS [VPC flow logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) to gain visibility into [network-level activity](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Network-Monitoring-Sections.html) within your AWS environment(s)
+    - [ ] **Azure:** Collect [sign-in logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins) from Microsoft Azure Entra ID
+    - [ ] **Azure:** Monitor provisioning logs in Entra ID to detect new user accounts with high privileges (contributor, security administrator, global administrator, etc.)
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
     - [ ] How would this impact the business?
