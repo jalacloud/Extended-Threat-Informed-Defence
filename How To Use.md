@@ -6,6 +6,7 @@
   * Use internal and external security logging and monitoring and alerts to identify cyber threats in real-time and near-real-time (NRT).
   * Subscribe to threat-intelligence feeds for accurate and timely information on real-world threat actor behaviour and techniques.
     - [ ] [Open Threat eXchange (OTX) AlienVault](https://otx.alienvault.com/)
+    - [ ] [MISP Open Source Threat-intel Sharing Platform](https://www.misp-project.org/)
     - [ ] [SANS Internet Storm Centre](https://isc.sans.edu/)
     - [ ] [Proofpoint Emerging Threats](https://rules.emergingthreats.net/)
    * Read and analyse threat reports for up-to-date insights on the current cyber threat landscape and emerging threat trends across various industry sectors.
@@ -21,6 +22,11 @@
     - [ ] **AWS:** Enable AWS [VPC flow logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) to gain visibility into [network-level activity](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Network-Monitoring-Sections.html) within your AWS environment(s)
     - [ ] **Azure:** Collect [sign-in logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins) from Microsoft Azure Entra ID
     - [ ] **Azure:** Monitor provisioning logs in Entra ID to detect new user accounts with high privileges (contributor, security administrator, global administrator, etc.)
+    - [ ] **GCP:** Leverage the comprehensive list of Google [Community Security Analytics (CSA)](https://github.com/GoogleCloudPlatform/security-analytics) to gain immediate insights across identity, network, data, and environment-level analytics and flow logs
+   
+  * Proactively hunt for threats within your cloud and on-premesis environments (threat hunting)
+    - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively detect/identify anomalous/suspicious and potentially malicious TA behaviour
+    - [ ]  
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
     - [ ] How would this impact the business?
