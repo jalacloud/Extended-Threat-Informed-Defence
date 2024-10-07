@@ -14,6 +14,7 @@
      - [ ] [OpenCTI](https://github.com/OpenCTI-Platform/opencti?tab=readme-ov-file)
      - [ ] [MISP Open Source Threat-intel Sharing Platform](https://www.misp-project.org/)
    * Read and analyse threat reports for up-to-date insights on the current cyber threat landscape and emerging threat trends across various industry sectors.
+     - [ ] [Verizon Data Breach Investigation Report](https://www.verizon.com/business/en-au/resources/reports/dbir/)
    * Analyse and research active threats within your specific industry.
      - [ ] What/who are the most active within your sector?
      - [ ] What top or most common **Initial Access** vectors are used to attack their targets?
