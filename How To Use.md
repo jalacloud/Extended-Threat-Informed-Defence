@@ -1,8 +1,8 @@
 # eXtended Threat-informed Defence (XTID)
 
-## Use threat intelligence *intelligently*
+![E2E Threat-informed Defence - watermarked](https://github.com/user-attachments/assets/b1e9e38b-446a-4d2f-ae0c-896813e7f9fc)
 
-![E2E Threat-informed Defence](https://github.com/user-attachments/assets/891206dd-3dcd-43b2-a73b-43a7702a3e39)
+## Use threat intelligence *intelligently*
 
 ### Observe
   * Use internal and external security logging and monitoring and alerts to identify cyber threats in real-time and near-real-time (NRT).
