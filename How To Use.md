@@ -31,8 +31,8 @@
    
   * Perform threat hunting in alignment with well-known frameworks (e.g. PEAK, TaHiTI)
   * Proactively hunt for threats within your cloud and on-premesis environments (threat hunting)
-    - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively detect/identify anomalous/suspicious and potentially malicious TA behaviour
-    - [ ] 
+    - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively identify and detect anomalous/suspicious and potentially malicious TA behaviour
+    - [ ] Check out [The Threat Hunter Playbook](https://threathunterplaybook.com/intro.html), a community-driven open source project to share detection logic, adversary tradecraft and resources to make detection development more efficient. 
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
     - [ ] How would this impact the business?
