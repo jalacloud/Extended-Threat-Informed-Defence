@@ -62,5 +62,4 @@
     - [ ] [Microsoft Azure Top 10 Security Best Practices](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-top-10)
     - [ ] [Amazon AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
     - [ ] [Google Cloud Well-Architected Framework](https://cloud.google.com/architecture/framework)
- 
-## When To Use
+
