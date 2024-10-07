@@ -1,6 +1,8 @@
-![ASS3T-v2-5 (v2)](https://github.com/user-attachments/assets/17f18e4e-fde9-4ea3-abca-13064a941434)
+# eXtended Threat-informed Defence (XTID)
 
-# Use threat intelligence *intelligently*
+## Use threat intelligence *intelligently*
+
+![E2E Threat-informed Defence](https://github.com/user-attachments/assets/891206dd-3dcd-43b2-a73b-43a7702a3e39)
 
 ### Observe
   * Use internal and external security logging and monitoring and alerts to identify cyber threats in real-time and near-real-time (NRT).
