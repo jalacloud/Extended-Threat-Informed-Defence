@@ -6,9 +6,11 @@
   * Use internal and external security logging and monitoring and alerts to identify cyber threats in real-time and near-real-time (NRT).
   * Subscribe to threat-intelligence feeds for accurate and timely information on real-world threat actor behaviour and techniques.
     - [ ] [Open Threat eXchange (OTX) AlienVault](https://otx.alienvault.com/)
-    - [ ] [MISP Open Source Threat-intel Sharing Platform](https://www.misp-project.org/)
     - [ ] [SANS Internet Storm Centre](https://isc.sans.edu/)
     - [ ] [Proofpoint Emerging Threats](https://rules.emergingthreats.net/)
+   * Deploy in-house threat intelligence tools/platforms to tailor threat intel observations to your organisation/threat cases.
+     - [ ] [OpenCTI](https://github.com/OpenCTI-Platform/opencti?tab=readme-ov-file)
+     - [ ] [MISP Open Source Threat-intel Sharing Platform](https://www.misp-project.org/)
    * Read and analyse threat reports for up-to-date insights on the current cyber threat landscape and emerging threat trends across various industry sectors.
    * Analyse and research active threats within your specific industry.
      - [ ] What/who are the most active within your sector?
@@ -22,11 +24,12 @@
     - [ ] **AWS:** Enable AWS [VPC flow logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) to gain visibility into [network-level activity](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Network-Monitoring-Sections.html) within your AWS environment(s)
     - [ ] **Azure:** Collect [sign-in logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins) from Microsoft Azure Entra ID
     - [ ] **Azure:** Monitor provisioning logs in Entra ID to detect new user accounts with high privileges (contributor, security administrator, global administrator, etc.)
-    - [ ] **GCP:** Leverage the comprehensive list of Google [Community Security Analytics (CSA)](https://github.com/GoogleCloudPlatform/security-analytics) to gain immediate insights across identity, network, data, and environment-level analytics and flow logs
+    - [ ] **GCP:** Leverage the comprehensive list of Google [Community Security Analytics (CSA)](https://github.com/GoogleCloudPlatform/security-analytics) to gain immediate insights across cloud identity, network, data, and environment-level analytics and flow logs
    
+  * Perform threat hunting in alignment with well-known frameworks (e.g. PEAK, TaHiTI)
   * Proactively hunt for threats within your cloud and on-premesis environments (threat hunting)
     - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively detect/identify anomalous/suspicious and potentially malicious TA behaviour
-    - [ ]  
+    - [ ] 
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
     - [ ] How would this impact the business?
@@ -36,6 +39,8 @@
     - [ ] How can we prevent/prepare/respond if something goes wrong?
     - [ ] Who would likely cause something to go wrong?
     - [ ] Did we miss anything important? Did we do a good job? (QA)
+  * Identify and review the knowledge base of analytics developed by [MITRE](https://www.mitre.org/) based on the MITRE ATT&CK adversary model.
+    - [ ]  Review MITRE's [Cyber Analytics Repository (CAR)](https://car.mitre.org/) for low-level analytics and technical procedures that are mapped against MITRE ATT&CK techniques
           
   * Experiment with open-source tooling to build and test real-world threat scenarios based on **observed** threat intel.
     - [ ] Discover/Identify valid attack surfaces exposed across your technology landscape using [AMASS](https://github.com/owasp-amass/amass) from the OWASP team
