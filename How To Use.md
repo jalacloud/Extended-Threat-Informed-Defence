@@ -52,7 +52,7 @@
 ### Protect
 
   * Plan, develop, and implement a robust defence strategy using the detailed information gathered from the above activities.
-  * Use [ASS3T](https://jasonlayton.com/resources/advanced-security-selection-evaluation-tool-ass3t-version-25) to help identify protective controls that are mapped to the MITRE ATT&CK framework.
+  * Use [ASS3T](https://jasonlayton.com/resources/advanced-security-selection-evaluation-tool-ass3t-version-25) to help identify protective controls mapped to the MITRE ATT&CK framework.
   * Use industry frameworks like [NIST CSF v2.0](https://csf.tools/framework/csf-v2-0/), [CIS Critical Security Controls (CSC)](https://www.cisecurity.org/controls) and the [Cloud Security Alliance (CSA) Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix) to help inform decision-making.
   * Leverage solution design guidance and secure best practices from major cloud service providers (CSPs).
     - [ ] [Microsoft Azure Well-Architected Framework (WAF)](https://learn.microsoft.com/en-us/azure/well-architected/)
