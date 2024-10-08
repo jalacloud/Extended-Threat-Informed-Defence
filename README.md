@@ -1,6 +1,6 @@
-## Extended Threat-informed Defence (eTID)
+## eXtended Threat-informed Defence (XTID)
 
-A repository dedicated to the ongoing development, application and extension of threat-informed defense.
+A repository dedicated to the ongoing development, application and extension of threat-informed defence.
 
 
 
