@@ -17,7 +17,9 @@
      - [ ] [Verizon Data Breach Investigation Report](https://www.verizon.com/business/en-au/resources/reports/dbir/)
    * Analyse and research active threats within your specific industry.
      - [ ] What/who are the most active within your sector?
-     - [ ] What top or most common **Initial Access** vectors are used to attack their targets?
+     - [ ] What top or most common *Initial Access* vectors are used to attack their targets?
+     - [ ] What are the most common or trending *persistence* techniques used by threat actors?
+     - [ ] What are the most common or trending *credential access* and *lateral movement* techniques used by threat actors?
 
 ### Identify
 
