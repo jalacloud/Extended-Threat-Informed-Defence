@@ -66,4 +66,5 @@
     - [ ] [Microsoft Azure Top 10 Security Best Practices](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-top-10)
     - [ ] [Amazon AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
     - [ ] [Google Cloud Well-Architected Framework](https://cloud.google.com/architecture/framework)
+   * Develop [outcome-driven metrics (ODMs)](https://github.com/jalacloud/cybersecurity/blob/main/Outcome-driven%20Metrics/2024-09-odm-checklist.md) to validate and verify the effectiveness of current security controls. 
 
