@@ -33,9 +33,9 @@
     - [ ] **GCP:** Leverage the comprehensive list of Google [Community Security Analytics (CSA)](https://github.com/GoogleCloudPlatform/security-analytics) to gain immediate insights across cloud identity, network, data, and environment-level analytics and flow logs
    
   * Perform threat hunting in alignment with well-known frameworks (e.g. PEAK, TaHiTI)
-  * Proactively hunt for threats within your cloud and on-premesis environments (threat hunting)
+  * Proactively hunt for threats within your cloud and on-premises environments (threat hunting)
     - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively identify and detect anomalous/suspicious and potentially malicious TA behaviour
-    - [ ] Check out [The Threat Hunter Playbook](https://threathunterplaybook.com/intro.html), a community-driven open source project to share detection logic, adversary tradecraft and resources to make detection development more efficient. 
+    - [ ] Check out [The Threat Hunter Playbook](https://threathunterplaybook.com/intro.html), a community-driven open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient. 
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
     - [ ] How would this impact the business?
@@ -50,15 +50,16 @@
           
   * Experiment with open-source tooling to build and test real-world threat scenarios based on **observed** threat intel.
     - [ ] Discover/Identify valid attack surfaces exposed across your technology landscape using [AMASS](https://github.com/owasp-amass/amass) from the OWASP team
-    - [ ] Research and identify valid attack patterns using [MITRE CAPEC] that can be applied to your technology stack 
+    - [ ] Research and identify valid attack patterns using [MITRE CAPEC] that apply to your technology stack 
     - [ ] Use the [Technique Inference Engine](https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/technique-inference-engine/) by MITRE CTID
     - [ ] Use the MITRE [Top ATT&CK Techniques Calculator](https://top-attack-techniques.mitre-engenuity.org/#/calculator)
     - [ ] Perform attack simulations mapped to the MITRE ATT&CK framework using Red Canary's [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
    
 ### Protect
 
-  * Plan, develop, and implement a robust defence strategy using the detailed information gathered from the above activities.
-  * Use [ASS3T](https://jasonlayton.com/resources/advanced-security-selection-evaluation-tool-ass3t-version-25) to help identify protective controls mapped to the MITRE ATT&CK framework.
+  * Use the detailed information from the above activities to plan, develop, and implement a robust defence strategy.
+  * Define and implement [design principles](https://github.com/jalacloud/cybersecurity/blob/main/reference_architecture_development/security%20principals.md) for your organisation's information security program to plan, design, deliver, and manage consistent and secure business solutions.
+  * Use [ASS3T](https://jasonlayton.com/resources/advanced-security-selection-evaluation-tool-ass3t-version-25) to help identify effective MITRE and NIST controls mapped to the MITRE ATT&CK framework.
   * Use industry frameworks like [NIST CSF v2.0](https://csf.tools/framework/csf-v2-0/), [CIS Critical Security Controls (CSC)](https://www.cisecurity.org/controls) and the [Cloud Security Alliance (CSA) Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix) to help inform decision-making.
   * Leverage solution design guidance and secure best practices from major cloud service providers (CSPs).
     - [ ] [Microsoft Azure Well-Architected Framework (WAF)](https://learn.microsoft.com/en-us/azure/well-architected/)
