@@ -57,7 +57,7 @@
    
 ### Protect
 
-  * Use the detailed information from the above activities to plan, develop, and implement a robust defence strategy.
+  * Use the detailed information from the above activities to plan, design, and implement a robust defence strategy.
   * Define and implement [design principles](https://github.com/jalacloud/cybersecurity/blob/main/reference_architecture_development/security%20principals.md) for your organisation's information security program to plan, design, deliver, and manage consistent and secure business solutions.
   * Use [ASS3T](https://jasonlayton.com/resources/advanced-security-selection-evaluation-tool-ass3t-version-25) to help identify effective MITRE and NIST controls mapped to the MITRE ATT&CK framework.
   * Use industry frameworks like [NIST CSF v2.0](https://csf.tools/framework/csf-v2-0/), [CIS Critical Security Controls (CSC)](https://www.cisecurity.org/controls) and the [Cloud Security Alliance (CSA) Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix) to help inform decision-making.
