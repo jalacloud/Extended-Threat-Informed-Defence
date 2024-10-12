@@ -33,7 +33,7 @@
     - [ ] **Azure:** [PLACEHOLDER FOR ADDITIONAL LOGGING/MONITORING CONTROLS]
     - [ ] **GCP:** Leverage the comprehensive list of Google [Community Security Analytics (CSA)](https://github.com/GoogleCloudPlatform/security-analytics) to gain immediate insights across cloud identity, network, data, and environment-level analytics and flow logs
    
-  * Perform threat hunting in alignment with well-known frameworks (e.g. PEAK, TaHiTI)
+  * Perform threat hunting in alignment with well-known frameworks (e.g. [PEAK](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html), TaHiTI)
   * Proactively hunt for threats within your cloud and on-premises environments (threat hunting)
     - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively identify and detect anomalous/suspicious and potentially malicious TA behaviour
     - [ ] Check out [The Threat Hunter Playbook](https://threathunterplaybook.com/intro.html), a community-driven open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient. 
