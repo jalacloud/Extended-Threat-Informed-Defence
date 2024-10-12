@@ -23,6 +23,7 @@
 
 ### Identify
 
+  * Identify and assess your *defensive surface*, based on your **Data**, **Applications**, **Assets**, and **Services**. Commonly referenced by the acronym DAAS.
   * Enable cloud native logging/monitoring functions in AWS, Azure, and GCP.
     - [ ] **AWS:** Enable AWS [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) to receive logs for IAM-related activity
     - [ ] **AWS:** Enable CloudWatch to receive logs for [AD sync and configurable AD sync errors](https://docs.aws.amazon.com/singlesignon/latest/userguide/logging-ad-sync-errors.html)
