@@ -12,6 +12,9 @@
 - You can also generate a scored list of mitigated ATT&CK techniques based on specific cloud controls e.g. "azure_firewall" or "aws_security_hub"...etc.
 - The script works for ALL cloud service providers (Azure, AWS, and GCP) - The mapping file is located in each vendors folder
 
+![image](https://github.com/user-attachments/assets/7aca003e-a01b-4bcf-b012-6f2a12a03e1d)
+
+
 ### Scoring System
 
 Scoring is the same as originally defined by MITRE CTID. You can find more information about this [here](https://center-for-threat-informed-defense.github.io/mappings-explorer/about/scoring/).
