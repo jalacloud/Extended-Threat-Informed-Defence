@@ -1,6 +1,6 @@
 # eXtended Threat-informed Defence (XTID)
 
-![E2E Threat-informed Defence - watermarked](https://github.com/user-attachments/assets/b1e9e38b-446a-4d2f-ae0c-896813e7f9fc)
+![image](https://github.com/user-attachments/assets/273ac21c-5fef-416f-b20a-0a5a49aa772f)
 
 ## Use threat intelligence *intelligently*
 
