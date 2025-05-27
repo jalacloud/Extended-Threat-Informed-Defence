@@ -2,7 +2,7 @@
 
 ### Overview
 These queries are optimised for efficiency and low false positives while maintaining strong detection capabilities.
-Link to the top 20 most prevalent techniques used among adversaries can be found here: [Top 20 Overlapping Techniques](link here)
+Link to the top 20 most prevalent techniques used among adversaries can be found here: [Top 20 Overlapping Techniques](https://github.com/jalacloud/Extended-Threat-Informed-Defence/blob/main/threatintel/top_20_techniques_2025-04.json)
 
 ## 1. T1204.002 - User Execution: Malicious File (Count: 83)
 Focus: Detect users executing suspicious files from risky locations
