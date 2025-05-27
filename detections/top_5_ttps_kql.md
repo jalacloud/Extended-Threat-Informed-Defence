@@ -8,7 +8,7 @@ Link to the top 20 most prevalent techniques used among adversaries can be found
 Focus: Detect users executing suspicious files from risky locations
 
 ```kql
-T1204.002 - User Execution: Malicious File
+// T1204.002 - User Execution: Malicious File
 DeviceProcessEvents
 | where Timestamp > ago(30d)
 | where InitiatingProcessFileName in~ ("explorer.exe", "chrome.exe", "firefox.exe", "msedge.exe", "outlook.exe")
@@ -34,7 +34,7 @@ DeviceProcessEvents
 Focus: Detect file downloads and network transfers of tools
 
 ```kql
-T1105 - Ingress Tool Transfer
+// T1105 - Ingress Tool Transfer
 DeviceProcessEvents
 | where Timestamp > ago(30d)
 | where ProcessCommandLine has_any ("http://", "https://", "ftp://")
@@ -59,7 +59,7 @@ DeviceProcessEvents
 Focus: Detect malicious PowerShell execution patterns
 
 ```kql
-T1059.001 - PowerShell Malicious Usage  
+// T1059.001 - PowerShell Malicious Usage  
 DeviceProcessEvents
 | where Timestamp > ago(30d)
 | where FileName =~ "powershell.exe"
@@ -86,7 +86,7 @@ DeviceProcessEvents
 Focus: Detect suspicious email attachments and execution
 
 ```kql
-T1566.001 - Spearphishing Attachment
+// T1566.001 - Spearphishing Attachment
 EmailAttachmentInfo
 | where Timestamp > ago(30d)
 | where FileType in~ (".exe", ".zip", ".rar", ".bat", ".cmd", ".scr", ".vbs", ".js")
@@ -124,7 +124,7 @@ EmailAttachmentInfo
 Focus: Detect acquisition of hacking tools and utilities
 
 ```kql
-T1588.002 - Tool Acquisition
+// T1588.002 - Tool Acquisition
 let hackerTools = dynamic([
     "mimikatz", "bloodhound", "sharphound", "rubeus", "seatbelt", "winpeas", 
     "empire", "metasploit", "cobalt", "psexec", "procdump", "lazagne"
