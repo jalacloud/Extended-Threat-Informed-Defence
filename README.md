@@ -40,6 +40,8 @@ My work in this field aims to go beyond the established definition of threat-inf
   * Perform threat hunting in alignment with well-known frameworks (e.g. [PEAK](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html), TaHiTI)
   * Proactively hunt for threats within your cloud and on-premises environments (threat hunting)
     - [ ] Build and run custom detection KQL queries in Microsoft Sentinel to actively identify and detect anomalous/suspicious and potentially malicious TA behaviour
+    - [ ] Identify the *most prevalent* and commonly occurring techniques targeting your organisation and develop alerts/rules to detect these as early as possible.
+          - Start with these: [MITRE ATT&CK v17.0 top adversary attack techniques](https://github.com/jalacloud/Extended-Threat-Informed-Defence/tree/main/detections)
     - [ ] Check out [The Threat Hunter Playbook](https://threathunterplaybook.com/intro.html), a community-driven open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient. 
   * Regularly perform (lite) threat modelling to proactively identify vulnerable attack vectors in your applications, networks, and systems.
     - [ ] What can go wrong?
