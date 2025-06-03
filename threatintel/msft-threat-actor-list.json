@@ -1,0 +1,676 @@
+[
+	{
+		"Threat actor name": "Amethyst Rain",
+		"Origin/Threat": "Lebanon",
+		"Other names": "VolcanicTimber, Volatile Cedar"
+	},
+	{
+		"Threat actor name": "Antique Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "Storm-0558"
+	},
+	{
+		"Threat actor name": "Aqua Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "ACTINIUM, PRIMITIVE BEAR, Gamaredon, Armageddon, UNC530, shuckworm, SectorC08"
+	},
+	{
+		"Threat actor name": "Berry Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "Storm-0852"
+	},
+	{
+		"Threat actor name": "Blue Tsunami",
+		"Origin/Threat": "Israel, Private sector offensive actor",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Brass Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "BARIUM, WICKED PANDA, APT41"
+	},
+	{	"Threat actor name": "Brocade Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "BORON, GOTHIC PANDA, UPS, APT3, OLDCARP, TG-0110, Red Sylvan, CYBRAN"
+	},
+	{
+		"Threat actor name": "Burgundy Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "REMIX KITTEN, Cadelle, Chafer"
+	},
+	{
+		"Threat actor name": "Cadet Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "DEV-0586, EMBER BEAR"
+	},
+	{
+		"Threat actor name": "Canary Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "CIRCUIT PANDA, APT24, Palmerworm, BlackTech"
+	},
+	{
+		"Threat actor name": "Canvas Cyclone",
+		"Origin/Threat": "Vietnam",
+		"Other names": "BISMUTH, OCEAN BUFFALO, OceanLotus, APT32"
+	},
+	{
+		"Threat actor name": "Caramel Tsunami",
+		"Origin/Threat": "Israel, Private sector offensive actor",
+		"Other names": "DEV-0236"
+	},
+	{
+		"Threat actor name": "Carmine Tsunami",
+		"Origin/Threat": "Private sector offensive actor",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Charcoal Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "CHROMIUM, AQUATIC PANDA, ControlX, RedHotel, BRONZE UNIVERSITY"
+	},
+	{
+		"Threat actor name": "Checkered Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "CHLORINE, DEEP PANDA, ATG50, APT19, TG-3551, Red Gargoyle"
+	},
+	{
+		"Threat actor name": "Cinnamon Tempest",
+		"Origin/Threat": "China, Financially motivated",
+		"Other names": "DEV-0401, HighGround"
+	},
+	{
+		"Threat actor name": "Circle Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "DEV-0322, EMISSARY PANDA, APT6, APT27"
+	},
+	{
+		"Threat actor name": "Citrine Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "Storm-0139, Storm-1222, LABYRINTH CHOLLIMA"
+	},
+	{
+		"Threat actor name": "Cotton Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "NEPTUNIUM, HAYWIRE KITTEN, Vice Leaker"
+	},
+	{
+		"Threat actor name": "CovertNetwork-1658",
+		"Origin/Threat": "Covert network",
+		"Other names": "ORB07"
+	},
+	{
+		"Threat actor name": "Crescent Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "CESIUM"
+	},
+	{
+		"Threat actor name": "Crimson Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "CURIUM, IMPERIAL KITTEN, Tortoise Shell, HOUSEBLEND, TA456"
+	},
+	{
+		"Threat actor name": "Cuboid Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "DEV-0228, IMPERIAL KITTEN"
+	},
+	{
+		"Threat actor name": "Denim Tsunami",
+		"Origin/Threat": "Austria, Private sector offensive actor",
+		"Other names": "DEV-0291"
+	},
+	{
+		"Threat actor name": "Diamond Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "ZINC, LABYRINTH CHOLLIMA, Black Artemis, Lazarus"
+	},
+	{
+		"Threat actor name": "Emerald Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "THALLIUM, VELVET CHOLLIMA, RGB-D5, Black Banshee, Kimsuky, Greendinosa"
+	},
+	{
+		"Threat actor name": "Fallow Squall",
+		"Origin/Threat": "Singapore",
+		"Other names": "PLATINUM, PARASITE, RUBYVINE, GINGERSNAP"
+	},
+	{
+		"Threat actor name": "Flax Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "Storm-0919, ETHEREAL PANDA"
+	},
+	{
+		"Threat actor name": "Forest Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "STRONTIUM, FANCY BEAR, Sednit, ATG2, Sofacy, Blue Athena, Z-Lom Team, Operation Pawn Storm, Tsar Team, CrisisFour, HELLFIRE, APT28"
+	},
+	{
+		"Threat actor name": "Ghost Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "BROMINE, BERSERK BEAR, TG-4192, Koala Team, Blue Kraken, Crouching Yeti, Dragonfly"
+	},
+	{
+		"Threat actor name": "Gingham Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "GADOLINIUM, KRYPTONITE PANDA, TEMP.Periscope, Leviathan, JJDoor, APT40, Feverdream"
+	},
+	{
+		"Threat actor name": "Granite Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "GALLIUM, PHANTOM PANDA"
+	},
+	{
+		"Threat actor name": "Gray Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "DEV-0343"
+	},
+	{
+		"Threat actor name": "Hazel Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "EUROPIUM, HELIX KITTEN, COLBALT GYPSY, Crambus, OilRig, APT34"
+	},
+	{
+		"Threat actor name": "Heart Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "HELIUM, AURORA PANDA, APT17, Hidden Lynx, ATG3, Red Typhon, KAOS, TG-8153, SportsFans, DeputyDog, Tailgater"
+	},
+	{
+		"Threat actor name": "Hexagon Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "HYDROGEN, NUMBERED PANDA, Calc Team, Red Anubis, APT12, DNS-Calc, HORDE"
+	},
+	{
+		"Threat actor name": "Houndstooth Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "HASSIUM, DRAGNET PANDA, isoon, deepclif"
+	},
+	{
+		"Threat actor name": "Jade Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "Storm-0954, LABYRINTH CHOLLIMA"
+	},
+	{
+		"Threat actor name": "Lace Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0950"
+	},
+	{
+		"Threat actor name": "Lemon Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "RUBIDIUM, PIONEER KITTEN"
+	},
+	{
+		"Threat actor name": "Leopard Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "LEAD, WICKED PANDA, TG-2633, TG-3279, Mana, KAOS, Red Diablo, Winnti Group"
+	},
+	{
+		"Threat actor name": "Lilac Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "DEV-0234"
+	},
+	{
+		"Threat actor name": "Linen Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "IODINE, EMISSARY PANDA, Red Phoenix, Hippo, Lucky Mouse, BOWSER, APT27, Wekby2, UNC215, TG-3390"
+	},
+	{
+		"Threat actor name": "Luna Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Magenta Dust",
+		"Origin/Threat": "Türkiye",
+		"Other names": "PROMETHIUM, StrongPity, SmallPity"
+	},
+	{
+		"Threat actor name": "Manatee Tempest",
+		"Origin/Threat": "Russia",
+		"Other names": "DEV-0243, INDRIK SPIDER"
+	},
+	{
+		"Threat actor name": "Mango Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "MERCURY, STATIC KITTEN, SeedWorm, TEMP.Zagros, MuddyWater"
+	},
+	{
+		"Threat actor name": "Marbled Dust",
+		"Origin/Threat": "Türkiye",
+		"Other names": "SILICON, COSMIC WOLF, Sea Turtle, UNC1326"
+	},
+	{
+		"Threat actor name": "Marigold Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "DEV-500, VENGEFUL KITTEN"
+	},
+	{
+		"Threat actor name": "Midnight Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "NOBELIUM, COZY BEAR, UNC2452, APT29"
+	},
+	{
+		"Threat actor name": "Mint Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "PHOSPHORUS, CHARMING KITTEN, Parastoo, Newscaster, APT35"
+	},
+	{
+		"Threat actor name": "Moonstone Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "Storm-1789, LABYRINTH CHOLLIMA"
+	},
+	{
+		"Threat actor name": "Mulberry Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "MANGANESE, KEYHOLE PANDA, Backdoor-DPD, COVENANT, CYSERVICE, Bottle, Red Horus, Red Naga, Auriga, APT5, ATG48, TG-2754, tabcteng"
+	},
+	{
+		"Threat actor name": "Mustard Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0206, INDRIK SPIDER"
+	},
+	{
+		"Threat actor name": "Neva Flood",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": "Storm-1516, CopyCop"
+	},
+	{
+		"Threat actor name": "Night Tsunami",
+		"Origin/Threat": "Israel",
+		"Other names": "DEV-0336"
+	},
+	{
+		"Threat actor name": "Nylon Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "NICKEL, VIXEN PANDA, Playful Dragon, RedRiver, ke3chang, APT15, Mirage"
+	},
+	{
+		"Threat actor name": "Octo Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": " SCATTERED SPIDER, 0ktapus"
+	},
+	{
+		"Threat actor name": "Onyx Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "PLUTONIUM, SILENT CHOLLIMA, StoneFly, Tdrop2 campaign, DarkSeoul, Black Chollima, Andariel, APT45"
+	},
+	{
+		"Threat actor name": "Opal Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "OSMIUM, VELVET CHOLLIMA, Planedown, Konni, APT43"
+	},
+	{
+		"Threat actor name": "Peach Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "HOLMIUM, REFINED KITTEN, APT33, Elfin"
+	},
+	{
+		"Threat actor name": "Pearl Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "LAWRENCIUM"
+	},
+	{
+		"Threat actor name": "Periwinkle Tempest",
+		"Origin/Threat": "Russia",
+		"Other names": "DEV-0193, WIZARD SPIDER"
+	},
+	{
+		"Threat actor name": "Phlox Tempest",
+		"Origin/Threat": "Israel, Financially motivated",
+		"Other names": "DEV-0796"
+	},
+	{
+		"Threat actor name": "Pink Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "AMERICIUM, SPECTRAL KITTEN, Agrius, Deadwood, BlackShadow, SharpBoys, FireAnt, Justice Blade"
+	},
+	{
+		"Threat actor name": "Pinstripe Lightning",
+		"Origin/Threat": "",
+		"Other names": "NIOBIUM, RENEGADE JACKAL, Desert Falcons, Scimitar, Arid Viper"
+	},
+	{
+		"Threat actor name": "Pistachio Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0237"
+	},
+	{
+		"Threat actor name": "Plaid Rain",
+		"Origin/Threat": "Lebanon",
+		"Other names": "POLONIUM, INCENDIARY JACKAL"
+	},
+	{
+		"Threat actor name": "Pumpkin Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "DEV-0146"
+	},
+	{
+		"Threat actor name": "Purple Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "POTASSIUM, STONE PANDA, GOLEM, Evilgrab, AEON, LIVESAFE, ChChes, APT10, Haymaker, Webmonder, Foxtrot, Foxmail, MenuPass, Red Apollo"
+	},
+	{
+		"Threat actor name": "Raspberry Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "RADIUM, LOTUS PANDA, LotusBlossom, APT30"
+	},
+	{
+		"Threat actor name": "Red Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "Storm-0842, BANISHED KITTEN, Void Manticore"
+	},
+	{
+		"Threat actor name": "Ruby Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "CERIUM, VELVET CHOLLIMA"
+	},
+	{
+		"Threat actor name": "Ruza Flood",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Salmon Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "SODIUM, MAVERICK PANDA, APT4"
+	},
+	{
+		"Threat actor name": "Salt Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "OPERATOR PANDA, GhostEmperor, FamousSparrow"
+	},
+	{
+		"Threat actor name": "Sangria Tempest",
+		"Origin/Threat": "Ukraine, Financially motivated",
+		"Other names": "ELBRUS, CARBON SPIDER"
+	},
+	{
+		"Threat actor name": "Sapphire Sleet",
+		"Origin/Threat": "North Korea",
+		"Other names": "COPERNICIUM, STARDUST CHOLLIMA, Genie Spider, BlueNoroff, CageyChameleon, CryptoCore"
+	},
+	{
+		"Threat actor name": "Satin Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "SCANDIUM, DYNAMITE PANDA, COMBINE, TG-0416, SILVERVIPER, Red Wraith, APT18, Elderwood Group, Wekby"
+	},
+	{
+		"Threat actor name": "Seashell Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "IRIDIUM, VOODOO BEAR, BE2, UAC-0113, Blue Echidna, Sandworm, PHANTOM, BlackEnergy Lite, APT44"
+	},
+	{
+		"Threat actor name": "Secret Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "KRYPTON, VENOMOUS BEAR, Uroburos, Snake, Blue Python, Turla, WRAITH, ATG26"
+	},
+	{
+		"Threat actor name": "Sefid Flood",
+		"Origin/Threat": "Iran, Influence operations",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Shadow Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "Storm-0062, DarkShadow, Oro0lxy"
+	},
+	{
+		"Threat actor name": "Silk Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "HAFNIUM, MURKY PANDA, timmy"
+	},
+	{
+		"Threat actor name": "Smoke Sandstorm",
+		"Origin/Threat": "Iran",
+		"Other names": "IMPERIAL KITTEN, UNC1549"
+	},
+	{
+		"Threat actor name": "Spandex Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "MONTY SPIDER, TA505"
+	},
+	{
+		"Threat actor name": "Star Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "SEABORGIUM, COLDRIVER, Callisto Group, BlueCharlie, TA446"
+	},
+	{
+		"Threat actor name": "Storm-0216",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "TUNNEL SPIDER, UNC2198"
+	},
+	{
+		"Threat actor name": "Storm-0230",
+		"Origin/Threat": "Group in development",
+		"Other names": "WIZARD SPIDER, Conti Team 1"
+	},
+	{
+		"Threat actor name": "Storm-0247",
+		"Origin/Threat": "China",
+		"Other names": "ToddyCat, Websiic"
+	},
+	{
+		"Threat actor name": "Storm-0252",
+		"Origin/Threat": "Group in development",
+		"Other names": "CHATTY SPIDER"
+	},
+	{
+		"Threat actor name": "Storm-0288",
+		"Origin/Threat": "Group in development",
+		"Other names": "FIN8"
+	},
+	{
+		"Threat actor name": "Storm-0302",
+		"Origin/Threat": "Group in development",
+		"Other names": "NARWHAL SPIDER, TA544"
+	},	
+	{
+		"Threat actor name": "Storm-0408",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0485",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0501",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0538",
+		"Origin/Threat": "Group in development",
+		"Other names": "SKELETON SPIDER, FIN6"
+	},
+	{
+		"Threat actor name": "Storm-0539",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0569",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0671",
+		"Origin/Threat": "Group in development",
+		"Other names": "UNC2596, Tropicalscorpius"
+	},
+	{
+		"Threat actor name": "Storm-0940",
+		"Origin/Threat": "China",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-0978",
+		"Origin/Threat": "Russia",
+		"Other names": "RomCom, Underground Team"
+	},
+	{
+		"Threat actor name": "Storm-1101",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1113",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "APOTHECARY SPIDER"
+	},
+	{
+		"Threat actor name": "Storm-1152",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1175",
+		"Origin/Threat": "China, Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1194",
+		"Origin/Threat": "Group in development",
+		"Other names": "MONTI"
+	},
+	{
+		"Threat actor name": "Storm-1249",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1516",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1567",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "PUNK SPIDER"
+	},
+	{
+		"Threat actor name": "Storm-1674",
+		"Origin/Threat": "Financially motivated",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1679",
+		"Origin/Threat": "Influence operations",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1811",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "CURLY SPIDER"
+	},
+	{
+		"Threat actor name": "Storm-1865",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-1982",
+		"Origin/Threat": "China",
+		"Other names": "SneakyCheff, UNK_SweetSpecter"
+	},
+	{
+		"Threat actor name": "Storm-2035",
+		"Origin/Threat": "Iran, Influence operations",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Storm-2077",
+		"Origin/Threat": "China",
+		"Other names": "TAG-100"
+	},
+	{
+		"Threat actor name": "Storm-2372",
+		"Origin/Threat": "Group in development",
+		"Other names": ""
+	},
+	{
+		"Threat actor name": "Strawberry Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0537, SLIPPY SPIDER, LAPSUS$"
+	},
+	{
+		"Threat actor name": "Sunglow Blizzard",
+		"Origin/Threat": "",
+		"Other names": "DEV-0665"
+	},
+	{
+		"Threat actor name": "Swirl Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "TELLURIUM, STALKER PANDA, Tick, Bronze Butler, REDBALDKNIGHT"
+	},
+	{
+		"Threat actor name": "Taffeta Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "TECHNETIUM, TURBINE PANDA, TG-0055, Red Kobold, JerseyMikes, APT26, BEARCLAW"
+	},
+	{
+		"Threat actor name": "Taizi Flood",
+		"Origin/Threat": "China, Influence operations",
+		"Other names": "Dragonbridge, Spamouflage"
+	},
+	{
+		"Threat actor name": "Tumbleweed Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "THORIUM, Karst"
+	},
+	{
+		"Threat actor name": "Twill Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "TANTALUM, MUSTANG PANDA, BRONZE PRESIDENT, LuminousMoth"
+	},
+	{
+		"Threat actor name": "Vanilla Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0832, VICE SPIDER, Vice Society"
+	},
+	{
+		"Threat actor name": "Velvet Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "DEV-0504, ALPHA SPIDER"
+	},
+	{
+		"Threat actor name": "Violet Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "ZIRCONIUM, JUDGMENT PANDA, Chameleon, APT31, WebFans"
+	},
+	{
+		"Threat actor name": "Void Blizzard",
+		"Origin/Threat": "Russia",
+		"Other names": "Laundry Bear"
+	},
+	{
+		"Threat actor name": "Volga Flood",
+		"Origin/Threat": "Russia, Influence operations",
+		"Other names": "Storm-1841, Rybar"
+	},
+	{
+		"Threat actor name": "Volt Typhoon",
+		"Origin/Threat": "China",
+		"Other names": "VANGUARD PANDA, BRONZE SILHOUETTE"
+	},
+	{
+		"Threat actor name": "Wheat Tempest",
+		"Origin/Threat": "Financially motivated",
+		"Other names": "GOLD, Gatak"
+	},
+	{
+		"Threat actor name": "Wisteria Tsunami",
+		"Origin/Threat": "India, Private sector offensive actor",
+		"Other names": "DEV-0605, MintedSoil"
+	},
+	{
+		"Threat actor name": "Yulong Flood",
+		"Origin/Threat": "China, Influence operations",
+		"Other names": "Storm-1852"
+	},
+	{
+		"Threat actor name": "Zigzag Hail",
+		"Origin/Threat": "Korea",
+		"Other names": "DUBNIUM, SHADOW CRANE, Nemim, TEMPLAR, TieOnJoe, Fallout Team, Purple Pygmy, Dark Hotel, Egobot, Tapaoux, PALADIN, APT-C-60"
+	}
+]
