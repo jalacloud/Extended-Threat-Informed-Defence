@@ -1,0 +1,137 @@
+[
+  {
+    "category_id": "phishing-social-engineering",
+    "category_name": "Phishing & Social Engineering",
+    "description": "Deceptive communications (email, SMS, voice, social media) used to manipulate users into disclosing credentials, approving MFA prompts, transferring funds, or executing malware. Includes spear phishing, smishing, vishing, and AI-generated impersonation."
+  },
+  {
+    "category_id": "bec",
+    "category_name": "Business Email Compromise (BEC)",
+    "description": "Targeted impersonation of executives, vendors, or partners to induce fraudulent payments or sensitive data disclosure. Often involves mailbox takeover and persistence within M365/Google Workspace."
+  },
+  {
+    "category_id": "credential-theft-identity",
+    "category_name": "Credential Theft & Identity Attacks",
+    "description": "Theft, harvesting, cracking, or replay of authentication material (passwords, tokens, cookies, API keys). Includes MFA fatigue attacks, session hijacking, OAuth abuse, and pass-the-cookie/token replay."
+  },
+  {
+    "category_id": "ransomware",
+    "category_name": "Ransomware",
+    "description": "Malware used to encrypt systems and/or exfiltrate data for extortion. Modern variants employ double or triple extortion (encryption + leak site + DDoS). Often delivered via initial access brokers (IABs)."
+  },
+  {
+    "category_id": "data-extortion",
+    "category_name": "Data Extortion (Unencrypted)",
+    "description": "Theft of sensitive data without encryption, followed by extortion threats to publish or sell the data. Increasingly common due to faster execution and lower operational overhead than ransomware."
+  },
+  {
+    "category_id": "supply-chain-compromise",
+    "category_name": "Supply Chain Compromise",
+    "description": "Compromise of software vendors, SaaS providers, MSPs, CI/CD pipelines, or open-source dependencies to gain indirect access to downstream victims. Includes malicious code injection and trusted update abuse."
+  },
+  {
+    "category_id": "cloud-environment-intrusion",
+    "category_name": "Cloud Environment Intrusion",
+    "description": "Exploitation of misconfigurations, exposed APIs, over-privileged IAM roles, or stolen cloud tokens to access IaaS/PaaS/SaaS environments. Often involves living-off-the-land abuse of native cloud services."
+  },
+  {
+    "category_id": "api-abuse",
+    "category_name": "API Abuse & Exploitation",
+    "description": "Targeting insecure or poorly authenticated APIs to extract data, bypass controls, perform business logic abuse, or escalate privileges. Increasingly relevant in SaaS and fintech environments."
+  },
+  {
+    "category_id": "zero-day-exploitation",
+    "category_name": "Zero-Day Exploitation",
+    "description": "Use of previously unknown vulnerabilities to achieve initial access or privilege escalation. Often weaponised rapidly against internet-facing appliances (VPNs, firewalls, hypervisors)."
+  },
+  {
+    "category_id": "nday-exploitation",
+    "category_name": "N-Day Vulnerability Exploitation",
+    "description": "Exploitation of known but unpatched vulnerabilities. Frequently automated at scale against exposed services."
+  },
+  {
+    "category_id": "initial-access-broker",
+    "category_name": "Initial Access Broker Activity",
+    "description": "Specialised actors who gain footholds (via phishing, exploits, RDP brute force) and sell access to ransomware or espionage groups. Key enabler in modern criminal ecosystems."
+  },
+  {
+    "category_id": "lotl",
+    "category_name": "Living-off-the-Land (LOTL) Techniques",
+    "description": "Abuse of legitimate system tools (PowerShell, WMI, Azure CLI, AWS CLI, PsExec) to evade detection and blend with normal operations. Common in post-compromise phases."
+  },
+  {
+    "category_id": "apt-operations",
+    "category_name": "Advanced Persistent Threat (APT) Operations",
+    "description": "Long-term, covert campaigns typically linked to nation-states, focused on espionage, intellectual property theft, or strategic disruption. Characterised by stealth and persistence."
+  },
+  {
+    "category_id": "cyber-espionage",
+    "category_name": "Cyber Espionage",
+    "description": "Targeted theft of sensitive government, defence, commercial, or research data for strategic advantage. May leverage zero-days and supply chain compromise."
+  },
+  {
+    "category_id": "ddos",
+    "category_name": "Distributed Denial of Service (DDoS)",
+    "description": "Flooding services with traffic to degrade or disrupt availability. Includes volumetric, application-layer, and extortion-based DDoS. Often combined with other attacks."
+  },
+  {
+    "category_id": "insider-threat",
+    "category_name": "Insider Threat",
+    "description": "Malicious or negligent actions by employees, contractors, or partners that result in data theft, sabotage, or exposure. Includes privilege abuse and data exfiltration."
+  },
+  {
+    "category_id": "malware-general",
+    "category_name": "Malware (Generalised)",
+    "description": "Software designed to disrupt, damage, or gain unauthorised access. Includes trojans, loaders, RATs, spyware, info-stealers, and botnet agents."
+  },
+  {
+    "category_id": "info-stealer",
+    "category_name": "Info-Stealer Campaigns",
+    "description": "Commodity malware designed specifically to harvest credentials, browser cookies, crypto wallets, and session tokens for resale on dark markets. Major enabler of downstream compromise."
+  },
+  {
+    "category_id": "cryptojacking",
+    "category_name": "Cryptojacking",
+    "description": "Unauthorised use of computing resources (often cloud workloads or containers) to mine cryptocurrency."
+  },
+  {
+    "category_id": "ot-ics-attacks",
+    "category_name": "Operational Technology (OT) / ICS Attacks",
+    "description": "Targeting industrial control systems, critical infrastructure, or manufacturing environments. May involve IT-to-OT pivoting."
+  },
+  {
+    "category_id": "iot-exploitation",
+    "category_name": "IoT Exploitation",
+    "description": "Compromise of insecure Internet of Things devices for botnets, surveillance, or lateral movement."
+  },
+  {
+    "category_id": "deepfake-ai-fraud",
+    "category_name": "Deepfake & AI-Enabled Fraud",
+    "description": "Use of AI-generated voice/video impersonation for financial fraud, executive impersonation, or social engineering escalation."
+  },
+  {
+    "category_id": "financial-system-manipulation",
+    "category_name": "Financial System Manipulation",
+    "description": "Attacks targeting payment platforms, trading systems, SWIFT infrastructure, or digital assets. Includes crypto exchange compromise."
+  },
+  {
+    "category_id": "web-application-attacks",
+    "category_name": "Web Application Attacks",
+    "description": "Exploitation of application vulnerabilities such as SQL injection, XSS, SSRF, RCE, and authentication bypass."
+  },
+  {
+    "category_id": "business-logic-abuse",
+    "category_name": "Business Logic Abuse",
+    "description": "Manipulation of legitimate workflows (refund abuse, API chaining, privilege escalation via logic flaws) without necessarily exploiting technical vulnerabilities."
+  },
+  {
+    "category_id": "destructive-attacks",
+    "category_name": "Destructive Attacks (Wipers)",
+    "description": "Malware designed to permanently destroy data or render systems inoperable, often geopolitically motivated."
+  },
+  {
+    "category_id": "hybrid-influence-ops",
+    "category_name": "Hybrid Influence Operations",
+    "description": "Combined cyber intrusion and information warfare campaigns designed to influence public opinion, elections, or market behaviour."
+  }
+]
